@@ -18,4 +18,4 @@ COPY . .
 
 
 RUN python manage.py makemigrations snippets && python manage.py migrate && python manage.py collectstatic --noinput
-CMD gunicorn hello_django.wsgi:application --bind 0.0.0.0:$PORT
+CMD gunicorn server.wsgi:application --bind 0.0.0.0:$PORT
