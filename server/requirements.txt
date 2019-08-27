@@ -1,0 +1,9 @@
+django 
+djangorestframework
+djangorestframework-jwt
+pyjwt
+dnspython
+djongo
+python-dotenv
+gunicorn
+
